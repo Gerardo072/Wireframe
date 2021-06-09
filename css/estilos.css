@@ -1,3 +1,12 @@
+/****************************************************************** 
+* UNIDADES DE MEDIDAS RELATIVAS
+*
+* EM
+* estas medida se establece con relación al font-size mas cercano
+*
+* REM
+* esta medida se establece con relación al font-size del html
+******************************************************************/
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +17,7 @@
     margin-top: 90px;
     display: flex;
     flex-direction: column;
+    background-color: red;
 }
 .div_1{
     width: 490px;
