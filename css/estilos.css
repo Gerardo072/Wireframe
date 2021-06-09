@@ -11,51 +11,52 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 10px; 
+}
 .margen{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 90px;
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 .div_1{
-    width: 490px;
-    height: 500px;
+    width: 49rem;
+    height: 50rem;
     background-color: #FE7E4F;
     border: 1px solid black;
-    border-radius: 75px;
+    border-radius: 7.5em;
 }
 .div_2{
-    width: 450px;
-    height: 240px;
+    width: 45rem;
+    height: 24rem;
     background-color: #FE7E4F;
     border: 1px solid black;
-    border-radius: 75px;
-    margin-top: 65px;
+    border-radius: 7.5rem;
+    margin-top: 6.5rem;
     align-self: flex-end;
-    
 }
 .div_3{
-    width: 450px;
-    height: 470px;
+    width: 45rem;
+    height: 47rem;
     background-color: #FE7E4F;
     border: 1px solid black;
-    border-radius: 75px;
+    border-radius: 7.5rem;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .div_4{
-    width: 450px;
-    height: 100px;
+    width: 45rem;
+    height: 10rem;
     background-color: #FE7E4F;
     border: 1px solid black;
-    border-radius: 75px;
-    margin-top: 65px;
-    align-self: flex-end;       
+    border-radius: 7.5rem;
+    margin-top: 7rem;
+    align-self: flex-end;
 }
 .div_5{
-    height: 10px;
+    height: 1rem;
     background-color: black;
 }
 .circulos{
@@ -64,11 +65,10 @@
     justify-content: space-around;
 }
 .div_circulo{
-    width: 130px;
-    height: 130px;
-    margin-top: 9px;
+    font-size: 10px;
+    width: 13rem;
+    height: 13rem;
+    margin-top: 1rem;
     border-radius: 50%;
     background: #001934;
-    
 }
-
